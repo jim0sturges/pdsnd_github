@@ -12,6 +12,8 @@ over the previous project's python code.
 During this project we have learned to initialize a repository as well as fork and clone repositories from
 github.
 
+We also looked at topics such as branching, merge, merge conflicts and backing out changes
+
 The previous work provided a user interface to runs an assortment of analysis on bikeshare data from Chicago,
 New York City and Washington.  In this project we will improved documentation and refactor some of that code
 to demonstrate version control using git and collaboration capabilities using github.
