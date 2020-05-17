@@ -9,6 +9,9 @@ This is the third project in the Udacity Programming for Data Science Nanodegree
 In this project we show the use of Git commands and the Git hub repository to implement version control
 over the previous project's python code.
 
+During this project we have learned to initialize a repository as well as fork and clone repositories from
+github.
+
 The previous work provided a user interface to runs an assortment of analysis on bikeshare data from Chicago,
 New York City and Washington.  In this project we will improved documentation and refactor some of that code
 to demonstrate version control using git and collaboration capabilities using github.
