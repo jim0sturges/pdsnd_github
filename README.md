@@ -18,6 +18,10 @@ The previous work provided a user interface to runs an assortment of analysis on
 New York City and Washington.  In this project we will improved documentation and refactor some of that code
 to demonstrate version control using git and collaboration capabilities using github.
 
+##### Personal observations
+I thought Udacity's intro to git was very helpful. I have been working with python for a while but never found
+time to learn about git and using git hub.
+
 ### Files used
 ##### Code File:
 - bikeshare.py
