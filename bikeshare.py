@@ -6,8 +6,7 @@
 import datetime as dt
 import pandas as pd
 import numpy as np
-#from IPython.display import display
-#pd.options.display.max_rows = 999
+
 def cleanup(df):
     df.columns = [item.lower() for item in list(df.columns)]
     df.columns = df.columns.str.replace(r" ", "_")       #replace space in cols with underscore
@@ -100,9 +99,7 @@ def get_data(df):
         else:
             if city_num=='3':
                 df=df[df['city']=='wdc']
-            #else:
-                #if city_num=='q':
-                    #run_it_again=False           
+        
     return(df,run_it_again)
 #************ main prog *************
 
@@ -154,9 +151,9 @@ while run_it_again:
         city_num=city_input()
         if city_num in ['1','2','3','']:
             df4=city_response[city_num]
-            raw_data=input('Would you like to see the top 5 and bottom 5 rows of the raw data (y for yes)?')
+            raw_data=input('Would you like to see the top 3 and bottom 3 rows of the raw data (y for yes)?')
             if raw_data.lower()=="y":
-                print(pd.concat([df.head(5),df.tail(5)]))
+                print(pd.concat([df.head(3),df.tail(3)]))
             city_input_needed=False    
         else:
             if city_num=='q':
