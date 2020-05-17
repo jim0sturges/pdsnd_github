@@ -6,8 +6,7 @@
 import datetime as dt
 import pandas as pd
 import numpy as np
-#from IPython.display import display
-#pd.options.display.max_rows = 999
+
 def cleanup(df):
     df.columns = [item.lower() for item in list(df.columns)]
     df.columns = df.columns.str.replace(r" ", "_")       #replace space in cols with underscore
@@ -100,9 +99,7 @@ def get_data(df):
         else:
             if city_num=='3':
                 df=df[df['city']=='wdc']
-            #else:
-                #if city_num=='q':
-                    #run_it_again=False           
+        
     return(df,run_it_again)
 #************ main prog *************
 
