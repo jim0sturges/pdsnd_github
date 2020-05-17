@@ -19,8 +19,11 @@ New York City and Washington.  In this project we will improved documentation an
 to demonstrate version control using git and collaboration capabilities using github.
 
 ##### Personal observations
-I thought Udacity's intro to git was very helpful. I have been working with python for a while but never found
-time to learn about git and using git hub.
+- I thought Udacity's intro to git was very helpful. I have been working with python for a while but never found
+- time to learn about git and using git hub.
+
+- I am interested to see if this can be used with jupyter notebooks.  I'm sure if possible it there is information can be
+- found through internet search
 
 ### Files used
 ##### Code File:
